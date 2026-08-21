@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Law School Alternatives</title>
+<meta name="description" content="Thinking about law school? Before you take the LSAT or sign the promissory note, explore the full landscape: alternative careers, degrees, and real stories from people who chose a different path.">
+<meta name="keywords" content="law school alternatives, instead of law school, skip law school, law school dropout, careers without JD, alternatives to JD, paralegal, compliance officer, legal operations, MLS degree, Master of Legal Studies, MBA instead of law school, policy analyst, legal tech, is law school worth it">
+<meta property="og:title" content="Law School Alternatives — The Complete Resource">
+<meta property="og:description" content="$200,000 in debt. Three years of your life. Is law school the only way? Explore careers, degrees, and paths that might fit you better.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lawschoolalternatives.com">
+<link rel="canonical" href="https://lawschoolalternatives.com">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* ─── TOKENS ──────────────────────────────────────────────── */
+:root {
+  --bg:         #F5F3EE;
+  --bg-alt:     #ECEAE3;
+  --surface:    #FFFFFF;
+  --border:     #D8D5CC;
+  --text:       #1C1A16;
+  --text-2:     #4A4740;
+  --text-3:     #7A786F;
+  --orange:     #E85D26;
+  --teal:       #2A8C8C;
+  --purple:     #7B4FBE;
+  --amber:      #C99A00;
+  --green:      #3A8A5A;
+  --orange-bg:  #FEF0E9;
+  --teal-bg:    #E8F5F5;
+  --purple-bg:  #F2ECFC;
+  --amber-bg:   #FDF6DC;
+  --green-bg:   #E8F5EE;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:         #18160F;
+    --bg-alt:     #211E16;
+    --surface:    #27241A;
+    --border:     #3A372E;
+    --text:       #EDE9DE;
+    --text-2:     #B8B4A8;
+    --text-3:     #7A786F;
+    --orange:     #F07040;
+    --teal:       #3AACAC;
+    --purple:     #9D75E0;
+    --amber:      #D4AA30;
+    --green:      #4AAC70;
+    --orange-bg:  #2A1A10;
+    --teal-bg:    #0E2222;
+    --purple-bg:  #1A1028;
+    --amber-bg:   #221A06;
+    --green-bg:   #0E2218;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg:         #18160F;
+  --bg-alt:     #211E16;
+  --surface:    #27241A;
+  --border:     #3A372E;
+  --text:       #EDE9DE;
+  --text-2:     #B8B4A8;
+  --text-3:     #7A786F;
+  --orange:     #F07040;
+  --teal:       #3AACAC;
+  --purple:     #9D75E0;
+  --amber:      #D4AA30;
+  --green:      #4AAC70;
+  --orange-bg:  #2A1A10;
+  --teal-bg:    #0E2222;
+  --purple-bg:  #1A1028;
+  --amber-bg:   #221A06;
+  --green-bg:   #0E2218;
+}
+
+/* ─── RESET & BASE ────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Lora', Georgia, serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+
+/* ─── TYPOGRAPHY ──────────────────────────────────────────── */
+.syne { font-family: 'Syne', system-ui, sans-serif; }
+.mono { font-family: 'DM Mono', 'Courier New', monospace; }
+
+h1, h2, h3, h4 {
+  font-family: 'Syne', system-ui, sans-serif;
+  text-wrap: balance;
+  line-height: 1.15;
+}
+
+/* ─── LAYOUT ──────────────────────────────────────────────── */
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.wide {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ─── THEME TOGGLE ────────────────────────────────────────── */
+.theme-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 100;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: transform 0.2s;
+}
+.theme-toggle:hover { transform: scale(1.1); }
+
+/* ─── NAV ─────────────────────────────────────────────────── */
+nav {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  padding: 14px 0;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nav-logo {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.nav-logo span { color: var(--orange); }
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-2);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover { color: var(--orange); }
+
+/* ─── HERO ────────────────────────────────────────────────── */
+.hero {
+  padding: 80px 0 64px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-eyebrow {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 2px;
+  background: var(--orange);
+}
+
+.hero h1 {
+  font-size: clamp(2.8rem, 7vw, 5.8rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  max-width: 880px;
+  margin-bottom: 28px;
+}
+
+.hero h1 .accent-orange { color: var(--orange); }
+.hero h1 .accent-teal   { color: var(--teal); }
+
+.hero-sub {
+  font-size: 1.15rem;
+  color: var(--text-2);
+  max-width: 600px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 44px;
+}
+
+.hero-stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 28px;
+  min-width: 180px;
+}
+
+.hero-stat .num {
+  font-family: 'DM Mono', monospace;
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.hero-stat .label {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+}
+
+.hero-stat.s-orange { border-left: 4px solid var(--orange); }
+.hero-stat.s-teal   { border-left: 4px solid var(--teal); }
+.hero-stat.s-purple { border-left: 4px solid var(--purple); }
+.hero-stat.s-amber  { border-left: 4px solid var(--amber); }
+
+.hero-stat.s-orange .num { color: var(--orange); }
+.hero-stat.s-teal   .num { color: var(--teal); }
+.hero-stat.s-purple .num { color: var(--purple); }
+.hero-stat.s-amber  .num { color: var(--amber); }
+
+.cta-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.14); }
+
+.btn-primary { background: var(--orange); color: #fff; }
+.btn-secondary {
+  background: transparent;
+  border: 2px solid var(--border);
+  color: var(--text);
+}
+
+/* ─── SECTION HEADERS ─────────────────────────────────────── */
+.section {
+  padding: 72px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-header {
+  margin-bottom: 48px;
+}
+
+.section-eyebrow {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-eyebrow::before {
+  content: '';
+  width: 16px;
+  height: 2px;
+  display: inline-block;
+}
+
+.orange .section-eyebrow { color: var(--orange); }
+.orange .section-eyebrow::before { background: var(--orange); }
+.teal   .section-eyebrow { color: var(--teal); }
+.teal   .section-eyebrow::before { background: var(--teal); }
+.purple .section-eyebrow { color: var(--purple); }
+.purple .section-eyebrow::before { background: var(--purple); }
+.amber  .section-eyebrow { color: var(--amber); }
+.amber  .section-eyebrow::before { background: var(--amber); }
+.green  .section-eyebrow { color: var(--green); }
+.green  .section-eyebrow::before { background: var(--green); }
+
+.section-header h2 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  max-width: 720px;
+}
+
+.section-header p {
+  margin-top: 16px;
+  font-size: 1.05rem;
+  color: var(--text-2);
+  max-width: 640px;
+}
+
+/* ─── COST SECTION ────────────────────────────────────────── */
+.cost-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.cost-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cost-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+}
+
+.cost-card.c-orange::before { background: var(--orange); }
+.cost-card.c-teal::before   { background: var(--teal); }
+.cost-card.c-purple::before { background: var(--purple); }
+.cost-card.c-amber::before  { background: var(--amber); }
+
+.cost-card .big-num {
+  font-family: 'DM Mono', monospace;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.cost-card.c-orange .big-num { color: var(--orange); }
+.cost-card.c-teal   .big-num { color: var(--teal); }
+.cost-card.c-purple .big-num { color: var(--purple); }
+.cost-card.c-amber  .big-num { color: var(--amber); }
+
+.cost-card h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.cost-card p {
+  font-size: 0.92rem;
+  color: var(--text-2);
+  line-height: 1.6;
+}
+
+/* ─── DROPOUTS SECTION ────────────────────────────────────── */
+.dropouts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.dropout-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dropout-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.09);
+}
+
+.dropout-card .name {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.dropout-card .school {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--text-3);
+  margin-bottom: 12px;
+  letter-spacing: 0.04em;
+}
+
+.dropout-card .became {
+  font-size: 0.88rem;
+  color: var(--text-2);
+  line-height: 1.6;
+}
+
+.dropout-card .tag {
+  display: inline-block;
+  margin-top: 14px;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.tag-orange { background: var(--orange-bg); color: var(--orange); }
+.tag-teal   { background: var(--teal-bg);   color: var(--teal); }
+.tag-purple { background: var(--purple-bg); color: var(--purple); }
+.tag-amber  { background: var(--amber-bg);  color: var(--amber); }
+.tag-green  { background: var(--green-bg);  color: var(--green); }
+
+/* ─── CAREERS SECTION ─────────────────────────────────────── */
+.careers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 20px;
+}
+
+.career-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.career-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.09);
+}
+
+.career-card .icon-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.career-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.ci-orange { background: var(--orange-bg); }
+.ci-teal   { background: var(--teal-bg); }
+.ci-purple { background: var(--purple-bg); }
+.ci-amber  { background: var(--amber-bg); }
+.ci-green  { background: var(--green-bg); }
+
+.salary-pill {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: var(--bg-alt);
+  color: var(--text-2);
+}
+
+.career-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.career-card p {
+  font-size: 0.88rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.career-card .learn-more {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: gap 0.2s;
+}
+
+.career-card .learn-more:hover { gap: 10px; }
+
+.lm-orange { color: var(--orange); }
+.lm-teal   { color: var(--teal); }
+.lm-purple { color: var(--purple); }
+.lm-amber  { color: var(--amber); }
+.lm-green  { color: var(--green); }
+
+/* ─── DEGREES SECTION ─────────────────────────────────────── */
+.degrees-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.degree-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 28px 32px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px 40px;
+  align-items: start;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.degree-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.degree-item h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.degree-item .desc {
+  font-size: 0.92rem;
+  color: var(--text-2);
+  line-height: 1.65;
+  margin-bottom: 12px;
+}
+
+.degree-item .meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.meta-chip {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background: var(--bg-alt);
+  color: var(--text-3);
+}
+
+.degree-link {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  padding-top: 4px;
+}
+
+/* ─── STORIES SECTION ─────────────────────────────────────── */
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.story-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.story-card::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  font-family: 'Lora', serif;
+  font-size: 8rem;
+  line-height: 1;
+  color: var(--border);
+  pointer-events: none;
+  user-select: none;
+}
+
+.story-card blockquote {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: var(--text);
+  flex: 1;
+  position: relative;
+}
+
+.story-card .attribution {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-3);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.story-card .source-link {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--text-3);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s;
+  margin-top: 4px;
+}
+
+.story-card .source-link:hover { color: var(--orange); }
+
+/* ─── INTEREST ROUTER ─────────────────────────────────────── */
+.interest-section {
+  background: var(--bg-alt);
+  padding: 72px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.interest-card {
+  border-radius: 14px;
+  padding: 28px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: block;
+}
+
+.interest-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+
+.interest-card.ic-orange { background: var(--orange-bg); border: 1px solid var(--orange); }
+.interest-card.ic-teal   { background: var(--teal-bg);   border: 1px solid var(--teal); }
+.interest-card.ic-purple { background: var(--purple-bg); border: 1px solid var(--purple); }
+.interest-card.ic-amber  { background: var(--amber-bg);  border: 1px solid var(--amber); }
+.interest-card.ic-green  { background: var(--green-bg);  border: 1px solid var(--green); }
+
+.interest-card .if {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: 4px;
+}
+
+.interest-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.interest-card.ic-orange h3 { color: var(--orange); }
+.interest-card.ic-teal   h3 { color: var(--teal); }
+.interest-card.ic-purple h3 { color: var(--purple); }
+.interest-card.ic-amber  h3 { color: var(--amber); }
+.interest-card.ic-green  h3 { color: var(--green); }
+
+.interest-card p {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.interest-card .arrow {
+  font-size: 1.2rem;
+}
+
+/* ─── RESOURCES SECTION ───────────────────────────────────── */
+.resources-cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+.resource-group h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.resource-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resource-links li a {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.4;
+  transition: color 0.15s;
+}
+
+.resource-links li a:hover { color: var(--orange); }
+
+.resource-links li a .rl-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-top: 7px;
+  flex-shrink: 0;
+}
+
+.dot-orange { background: var(--orange); }
+.dot-teal   { background: var(--teal); }
+.dot-purple { background: var(--purple); }
+.dot-amber  { background: var(--amber); }
+.dot-green  { background: var(--green); }
+
+/* ─── REDDIT SECTION ──────────────────────────────────────── */
+.reddit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.reddit-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s, transform 0.2s;
+  display: block;
+}
+
+.reddit-card:hover {
+  border-color: var(--orange);
+  transform: translateY(-2px);
+}
+
+.reddit-card .sub {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.82rem;
+  color: var(--orange);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.reddit-card .desc {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+/* ─── LEGAL TECH ──────────────────────────────────────────── */
+.legal-tech-bar {
+  background: var(--purple-bg);
+  border: 1px solid var(--purple);
+  border-radius: 14px;
+  padding: 32px 36px;
+  margin-bottom: 32px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.legal-tech-bar .lt-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.legal-tech-bar h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--purple);
+  margin-bottom: 6px;
+}
+
+.legal-tech-bar p {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.6;
+}
+
+/* ─── TRUTH SECTION ───────────────────────────────────────── */
+.truth-section {
+  background: var(--text);
+  color: var(--bg);
+  padding: 80px 0;
+}
+
+.truth-section h2 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  max-width: 800px;
+  margin-bottom: 24px;
+}
+
+.truth-section h2 .accent { color: var(--orange); }
+
+.truth-section p {
+  font-size: 1.08rem;
+  color: #B8B4A8;
+  max-width: 600px;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+/* ─── FOOTER ──────────────────────────────────────────────── */
+footer {
+  background: var(--bg-alt);
+  padding: 48px 0;
+  border-top: 1px solid var(--border);
+}
+
+.footer-inner {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.footer-brand .logo {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-brand .logo span { color: var(--orange); }
+
+.footer-brand p {
+  font-size: 0.82rem;
+  color: var(--text-3);
+  max-width: 280px;
+  line-height: 1.6;
+}
+
+.footer-links h4 {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: 12px;
+}
+
+.footer-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-links ul a {
+  font-size: 0.88rem;
+  color: var(--text-2);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links ul a:hover { color: var(--orange); }
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+  color: var(--text-3);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* ─── ANIMATIONS ──────────────────────────────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ─── RESPONSIVE ──────────────────────────────────────────── */
+@media (max-width: 700px) {
+  .nav-links { display: none; }
+  .degree-item { grid-template-columns: 1fr; }
+  .footer-inner { flex-direction: column; }
+  .hero-stats { flex-direction: column; }
+}
+
+/* ─── FOCUS ───────────────────────────────────────────────── */
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── DIVIDER ─────────────────────────────────────────────── */
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 48px 0;
+  color: var(--text-3);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+}
+
+.section-divider::before, .section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+</style>
+</head>
+
+<body>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌓</button>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Law School<span>Alternatives</span>.com</a>
+    <ul class="nav-links">
+      <li><a href="#cost">The Real Cost</a></li>
+      <li><a href="#careers">Careers</a></li>
+      <li><a href="#degrees">Degrees</a></li>
+      <li><a href="#stories">Stories</a></li>
+      <li><a href="#resources">Resources</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-eyebrow">The honest guide nobody handed you</div>
+    <h1>
+      You don't have to go<br>
+      to <span class="accent-orange">law school.</span>
+    </h1>
+    <p class="hero-sub">
+      Before you take the LSAT, defer your offer, or sign a promissory note for six figures of debt — read this first. There are more paths to a meaningful, high-impact legal career (and life) than the one everyone assumes you'll take.
+    </p>
+    <div class="hero-stats">
+      <div class="hero-stat s-orange fade-in">
+        <div class="num">$210K+</div>
+        <div class="label">Average top-school tuition (3 yrs)</div>
+      </div>
+      <div class="hero-stat s-teal fade-in">
+        <div class="num">~$130K</div>
+        <div class="label">Median law school debt on graduation</div>
+      </div>
+      <div class="hero-stat s-purple fade-in">
+        <div class="num">3 years</div>
+        <div class="label">Of your life, plus bar prep</div>
+      </div>
+      <div class="hero-stat s-amber fade-in">
+        <div class="num">33</div>
+        <div class="label">Low-tier schools where median income is ≤$55K after debt</div>
+      </div>
+    </div>
+    <div class="cta-row">
+      <a href="#careers" class="btn btn-primary">Explore Careers Without a JD</a>
+      <a href="#degrees" class="btn btn-secondary">Alternative Degrees</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRUTH BANNER -->
+<section class="truth-section">
+  <div class="container">
+    <h2>Law school was designed to<br>train <span class="accent">lawyers.</span><br>Most of its graduates aren't happy ones.</h2>
+    <p>Nearly half of law school graduates don't work in traditional legal roles within a decade of graduating. That's not a failure — it's a signal. The skills law teaches are genuinely valuable. But you can develop many of them without the $130,000 price tag and the years of your life.</p>
+    <p>This site is for everyone who has considered law school: pre-law students, career changers, burned-out paralegals, idealistic policy wonks, and anyone who got a law school acceptance letter and felt a creeping sense of <em>wait, is this actually what I want?</em></p>
+  </div>
+</section>
+
+<!-- THE REAL COST -->
+<section id="cost" class="section orange">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-eyebrow">Before you commit</div>
+      <h2>The real cost of law school — and what you could do instead with that money</h2>
+      <p>Three years. Six figures. And that's before the bar exam, bar prep course, and the two years of 2,000-billable-hour associate life that follows. The math deserves a clear look.</p>
+    </div>
+
+    <div class="cost-grid">
+      <div class="cost-card c-orange fade-in">
+        <div class="big-num">$210K</div>
+        <h3>Top-School Tuition</h3>
+        <p>Yale, Harvard, Columbia, Stanford — the most prestigious schools cost over $70,000 per year in tuition alone, not counting living expenses, books, or the income you're not earning.</p>
+        <p style="margin-top:10px;font-size:0.82rem;color:var(--text-3);">Source: <a href="https://www.toplawschoolconsulting.com/blog/is-law-school-worth-it" style="color:var(--orange);">Top Law School Consulting</a>, <a href="https://theartofapplying.com/is-law-school-worth-it/" style="color:var(--orange);">The Art of Applying</a></p>
+      </div>
+      <div class="cost-card c-teal fade-in">
+        <div class="big-num">$60K–$100K</div>
+        <h3>Most Lawyers Don't Work BigLaw</h3>
+        <p>The $215,000 BigLaw starting salary gets all the press. But most lawyers earn between $60K and $100K in public interest, government, or small-firm roles — often while carrying six-figure debt.</p>
+        <p style="margin-top:10px;font-size:0.82rem;color:var(--text-3);">Source: <a href="https://www.abajournal.com/web/article/is-law-school-worth-it-at-33-low-tier-schools-median-income-after-student-debt-is-55k-or-below" style="color:var(--teal);">ABA Journal</a></p>
+      </div>
+      <div class="cost-card c-purple fade-in">
+        <div class="big-num">3–5 yrs</div>
+        <h3>Breakeven (If You're Lucky)</h3>
+        <p>For graduates who land BigLaw jobs, the financial investment recoups within 3–5 years. For everyone else, the timeline extends significantly — sometimes indefinitely.</p>
+        <p style="margin-top:10px;font-size:0.82rem;color:var(--text-3);">Source: <a href="https://theartofapplying.com/is-law-school-worth-it/" style="color:var(--purple);">The Art of Applying</a></p>
+      </div>
+      <div class="cost-card c-amber fade-in">
+        <div class="big-num">1–2 yrs</div>
+        <h3>What Alternatives Cost</h3>
+        <p>An MBA, Master of Legal Studies, or Master of Public Policy typically runs 1–2 years and costs a fraction of law school — while opening many of the same doors.</p>
+        <p style="margin-top:10px;font-size:0.82rem;color:var(--text-3);">Source: <a href="https://career.berkeley.edu/get-into-grad-school/law-school/alternatives-to-a-jd/" style="color:var(--amber);">UC Berkeley Career Engagement</a></p>
+      </div>
+    </div>
+
+    <div class="legal-tech-bar fade-in" style="margin-top:32px;">
+      <div class="lt-icon">⚖️</div>
+      <div>
+        <h3>Who actually needs a JD?</h3>
+        <p>You need a JD to <strong>practice law</strong> — to represent clients in court, give legal advice, and hold the title "attorney." But the vast majority of legal-adjacent work does <em>not</em> require a JD: compliance, legal operations, policy, contract management, mediation, legal tech, HR, paralegal work, and more are all open to non-lawyers. Even law school career centers acknowledge this — see <a href="https://www.colorado.edu/law/careers/career-paths/alternative-careers" style="color:var(--purple);">Colorado Law's list</a>, <a href="https://www.bu.edu/law/careers-professional-development/legal-career-paths/employment-sectors-alternative-emerging-careers" style="color:var(--purple);">BU Law's guide</a>, and <a href="https://law.berkeley.edu/careers/other-resources/external-job-search-resources/alternative-careers/" style="color:var(--purple);">Berkeley Law's resource</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAMOUS DROPOUTS -->
+<section id="dropouts" class="section teal">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-eyebrow">You'd be in good company</div>
+      <h2>Famous people who left (or skipped) law school</h2>
+      <p>From a sitting president to a Nobel laureate to a Rock &amp; Roll Hall of Famer — law school wasn't the end of the story, it was the beginning of a different one.</p>
+    </div>
+
+    <div class="dropouts-grid">
+      <div class="dropout-card fade-in">
+        <div class="name">Teddy Roosevelt</div>
+        <div class="school">Columbia Law School → dropped out</div>
+        <div class="became">Found law school "dull" and left after one year to pursue politics. Went on to become the 26th President of the United States.</div>
+        <span class="tag tag-orange">Politics</span>
+      </div>
+      <div class="dropout-card fade-in">
+        <div class="name">Gabriel García Márquez</div>
+        <div class="school">University of Bogotá Law → dropped out</div>
+        <div class="became">Abandoned legal studies to pursue journalism, then literature. Won the Nobel Prize in Literature in 1982 for <em>One Hundred Years of Solitude</em>.</div>
+        <span class="tag tag-teal">Writing</span>
+      </div>
+      <div class="dropout-card fade-in">
+        <div class="name">Harper Lee</div>
+        <div class="school">University of Alabama Law → left early</div>
+        <div class="became">Completed a year of law school as an undergraduate before following her passion for writing. Authored <em>To Kill a Mockingbird</em>, which won the Pulitzer Prize.</div>
+        <span class="tag tag-purple">Literature</span>
+      </div>
+      <div class="dropout-card fade-in">
+        <div class="name">Diane Sawyer</div>
+        <div class="school">Completed one semester of law school</div>
+        <div class="became">Switched to television journalism and politics, working with the Nixon-Ford transition team. Became one of America's most recognized broadcast journalists.</div>
+        <span class="tag tag-amber">Journalism</span>
+      </div>
+      <div class="dropout-card fade-in">
+        <div class="name">Al Gore</div>
+        <div class="school">Vanderbilt Law School → left to run for Congress</div>
+        <div class="became">Left law school to enter politics, eventually becoming a U.S. Senator, Vice President, and Nobel Peace Prize laureate for climate advocacy.</div>
+        <span class="tag tag-green">Politics</span>
+      </div>
+      <div class="dropout-card fade-in">
+        <div class="name">Paul Simon</div>
+        <div class="school">Brooklyn Law School → dropped out</div>
+        <div class="became">Left law school to focus on music with Art Garfunkel. Simon &amp; Garfunkel are one of the best-selling music acts of the 20th century.</div>
+        <span class="tag tag-orange">Music</span>
+      </div>
+      <div class="dropout-card fade-in">
+        <div class="name">Reddit's Co-Founder</div>
+        <div class="school">Walked out of the LSAT after 20 minutes</div>
+        <div class="became">Decided on the spot that entrepreneurship was his path. Reddit is now one of the most-visited websites in the world. <a href="https://fortune.com/videos/watch/reddit%E2%80%99s-founder-walked-out-of-the-lsat-after-20-minutes-and-decided-to-be-an-entrepreneur-/1ade46d1-5a51-43bc-8dca-59c56d2173b8" style="color:var(--teal);">Watch the story →</a></div>
+        <span class="tag tag-teal">Tech / Entrepreneurship</span>
+      </div>
+      <div class="dropout-card fade-in">
+        <div class="name">Ray Manzarek</div>
+        <div class="school">UCLA Law → transferred to film school</div>
+        <div class="became">Left law to attend UCLA's film program, where he met Jim Morrison. Became the keyboardist for The Doors.</div>
+        <span class="tag tag-purple">Music</span>
+      </div>
+      <div class="dropout-card fade-in">
+        <div class="name">Kelly Doran</div>
+        <div class="school">Left after one semester due to burnout</div>
+        <div class="became">"The thing that had drawn me to law — my desire to help others — also made it exhausting." Now works as a freelance writer and actor. <a href="https://www.careercontessa.com/advice/law-school-right-fit/" style="color:var(--teal);">Read her story →</a></div>
+        <span class="tag tag-amber">Writing</span>
+      </div>
+    </div>
+
+    <p style="margin-top:32px;font-size:0.88rem;color:var(--text-3);">
+      More famous dropouts: <a href="https://testmaxprep.com/blog/bar-exam/famous-law-school-dropouts" style="color:var(--teal);">TestMax's list</a> · <a href="https://www.findlaw.com/legalblogs/greedy-associates/the-10-most-prominent-law-school-dropouts-in-history/" style="color:var(--teal);">FindLaw's Top 10</a>
+    </p>
+  </div>
+</section>
+
+<!-- CAREERS WITHOUT A JD -->
+<section id="careers" class="section purple">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-eyebrow">Work in law without law school</div>
+      <h2>Careers in the legal world that don't require a JD</h2>
+      <p>These aren't consolation prizes. Many of these roles pay well, offer meaningful work, and are growing fast — especially legal operations and compliance, where demand has exploded in the last decade.</p>
+    </div>
+
+    <div class="careers-grid">
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-orange">⚙️</div>
+          <span class="salary-pill">$60K–$130K</span>
+        </div>
+        <h3>Compliance Officer</h3>
+        <p>Ensure companies follow laws, regulations, and internal policies. One of the fastest-growing legal-adjacent fields, especially in finance, healthcare, and tech. Many companies actively prefer non-lawyers who can communicate clearly.</p>
+        <a href="https://www.utsa.edu/pace/news/careers-in-the-legal-field-without-law-degree.html" class="learn-more lm-orange">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-teal">📋</div>
+          <span class="salary-pill">$55K–$115K</span>
+        </div>
+        <h3>Contract Administrator</h3>
+        <p>Manage contract lifecycles — drafting, negotiating, tracking, and resolving disputes. High demand in government, defense, and tech. Certification through NCMA can substitute for a degree.</p>
+        <a href="https://career.ucla.edu/blog/2024/02/01/13-careers-in-law-without-being-a-lawyer/" class="learn-more lm-teal">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-purple">🔧</div>
+          <span class="salary-pill">$75K–$180K</span>
+        </div>
+        <h3>Legal Operations Manager</h3>
+        <p>Run the business side of a corporate legal department: budgets, technology, vendor management, process improvement. One of the hottest titles in legal right now. No JD required — MBA or paralegal background common.</p>
+        <a href="https://ironcladapp.com/journal/legal-operations/become-a-legal-operations-manager" class="learn-more lm-purple">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-amber">🔬</div>
+          <span class="salary-pill">$50K–$90K</span>
+        </div>
+        <h3>Paralegal</h3>
+        <p>Support attorneys with research, document preparation, client interviews, and case management. Can specialize in any area of law. An ABA-approved certificate (1–2 years) is often sufficient.</p>
+        <a href="https://www.paralegaledu.org/paralegal-career-guide/" class="learn-more lm-amber">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-green">🏛️</div>
+          <span class="salary-pill">$55K–$110K</span>
+        </div>
+        <h3>Policy Analyst</h3>
+        <p>Research and analyze policy proposals for government agencies, think tanks, or advocacy organizations. An MPP, MPA, or even a strong undergrad poli sci background can get you here. No JD needed — often not preferred.</p>
+        <a href="https://career.berkeley.edu/get-into-grad-school/law-school/alternatives-to-a-jd/" class="learn-more lm-green">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-orange">🤝</div>
+          <span class="salary-pill">$40K–$100K</span>
+        </div>
+        <h3>Mediator / Arbitrator</h3>
+        <p>Help parties in conflict reach agreements without going to court. Many mediators come from counseling, social work, or business backgrounds. Certification programs range from a weekend workshop to a graduate certificate.</p>
+        <a href="https://mediate.com/pursuing-a-mediation-career-without-a-law-degree/" class="learn-more lm-orange">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-teal">📢</div>
+          <span class="salary-pill">$45K–$120K</span>
+        </div>
+        <h3>Lobbyist</h3>
+        <p>Represent organizations before legislatures and regulatory agencies. Success comes from relationships, communication, and subject-matter expertise — not a JD. Many former staffers become highly effective lobbyists.</p>
+        <a href="https://career.ucla.edu/blog/2024/02/01/13-careers-in-law-without-being-a-lawyer/" class="learn-more lm-teal">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-purple">🔍</div>
+          <span class="salary-pill">$65K–$140K</span>
+        </div>
+        <h3>E-Discovery Specialist</h3>
+        <p>Manage electronic documents — emails, databases, social media — for litigation. A booming field at the intersection of law and technology. Tech-savvy candidates without law degrees are highly valued.</p>
+        <a href="https://career.ucla.edu/blog/2024/02/01/13-careers-in-law-without-being-a-lawyer/" class="learn-more lm-purple">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-amber">👥</div>
+          <span class="salary-pill">$70K–$150K</span>
+        </div>
+        <h3>HR Manager / Employment Specialist</h3>
+        <p>Oversee hiring, labor relations, and employment policy — deeply intertwined with employment law. A SHRM certification or HR degree is the typical path. No JD required or expected.</p>
+        <a href="https://career.ucla.edu/blog/2024/02/01/13-careers-in-law-without-being-a-lawyer/" class="learn-more lm-amber">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-green">💡</div>
+          <span class="salary-pill">$80K–$200K+</span>
+        </div>
+        <h3>Legal Tech / LegalOps Consultant</h3>
+        <p>The fastest-growing corner of the legal world. Help law firms and legal departments adopt new software, automate workflows, and modernize operations. Background in tech, business analysis, or project management is ideal.</p>
+        <a href="https://www.jdjournal.com/2026/03/25/legal-operations-career-path-roles-skills-and-growth/" class="learn-more lm-green">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-orange">🏢</div>
+          <span class="salary-pill">$50K–$95K</span>
+        </div>
+        <h3>Title Examiner</h3>
+        <p>Research property records and titles for real estate transactions. A niche but stable field that requires legal knowledge but no license. Often a gateway into real estate law firms or title companies.</p>
+        <a href="https://career.ucla.edu/blog/2024/02/01/13-careers-in-law-without-being-a-lawyer/" class="learn-more lm-orange">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-teal">📊</div>
+          <span class="salary-pill">$50K–$95K</span>
+        </div>
+        <h3>Claims Adjuster</h3>
+        <p>Investigate insurance claims, determine fault, and negotiate settlements. Requires knowledge of liability law, but not a JD. Many adjusters start with a bachelor's and on-the-job licensing.</p>
+        <a href="https://career.ucla.edu/blog/2024/02/01/13-careers-in-law-without-being-a-lawyer/" class="learn-more lm-teal">Learn more →</a>
+      </div>
+
+      <div class="career-card fade-in">
+        <div class="icon-row">
+          <div class="career-icon ci-purple">🧠</div>
+          <span class="salary-pill">$60K–$130K</span>
+        </div>
+        <h3>Jury Consultant</h3>
+        <p>Apply behavioral science to help attorneys understand jurors, craft arguments, and run mock trials. A background in psychology, sociology, or communication is typical. A niche but well-paid field.</p>
+        <a href="https://career.ucla.edu/blog/2024/02/01/13-careers-in-law-without-being-a-lawyer/" class="learn-more lm-purple">Learn more →</a>
+      </div>
+
+    </div>
+
+    <div class="section-divider fade-in">Also worth exploring</div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;">
+      <div style="padding:16px 18px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:0.88rem;color:var(--text-2);">🔏 Court Reporter / Stenographer</div>
+      <div style="padding:16px 18px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:0.88rem;color:var(--text-2);">📰 Legal Journalist / Reporter</div>
+      <div style="padding:16px 18px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:0.88rem;color:var(--text-2);">⚕️ Healthcare Compliance Officer</div>
+      <div style="padding:16px 18px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:0.88rem;color:var(--text-2);">🏦 Financial Regulatory Analyst</div>
+      <div style="padding:16px 18px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:0.88rem;color:var(--text-2);">✈️ TSA / Federal Law Enforcement</div>
+      <div style="padding:16px 18px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:0.88rem;color:var(--text-2);">🌍 International Trade Specialist</div>
+      <div style="padding:16px 18px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:0.88rem;color:var(--text-2);">📡 Tech Policy Researcher</div>
+      <div style="padding:16px 18px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:0.88rem;color:var(--text-2);">💼 Legislative Aide / Staffer</div>
+    </div>
+  </div>
+</section>
+
+<!-- ALTERNATIVE DEGREES -->
+<section id="degrees" class="section amber">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-eyebrow">Graduate programs worth knowing</div>
+      <h2>Alternative degrees and programs — what they are, and who they're for</h2>
+      <p>Many pre-law students don't realize how many graduate programs offer law-adjacent knowledge without the JD price tag or time commitment. Here are the most important ones.</p>
+    </div>
+
+    <div class="degrees-list">
+
+      <div class="degree-item fade-in">
+        <div>
+          <h3>Master of Legal Studies (MLS) / Master of Jurisprudence (MJ)</h3>
+          <p class="desc">A one- to two-year graduate degree designed for non-lawyers who work in or around the law. You learn to read contracts, understand regulatory frameworks, and navigate legal systems — without the commitment to becoming a practicing attorney. Often offered online. Ideal for compliance officers, HR managers, healthcare administrators, and anyone who interfaces with attorneys regularly.</p>
+          <div class="meta">
+            <span class="meta-chip">1–2 years</span>
+            <span class="meta-chip">$20K–$60K total</span>
+            <span class="meta-chip">No bar exam</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end;">
+          <a href="https://llm-guide.com/articles/juris-masters-msls-and-beyond-master-of-laws-programs-for-non-law-graduates" class="degree-link" style="color:var(--amber);">LLM Guide overview →</a>
+          <a href="https://mls.law.wfu.edu/articles/mls-vs-jd-which-is-right-for-you/" class="degree-link" style="color:var(--amber);">MLS vs. JD →</a>
+          <a href="https://bulletin.stanford.edu/programs/LAW-MLS" class="degree-link" style="color:var(--amber);">Stanford MLS →</a>
+          <a href="https://online.law.wm.edu/master-of-legal-studies" class="degree-link" style="color:var(--amber);">W&amp;M Online MLS →</a>
+        </div>
+      </div>
+
+      <div class="degree-item fade-in">
+        <div>
+          <h3>Master of Public Policy (MPP) or Master of Public Administration (MPA)</h3>
+          <p class="desc">The go-to graduate degree for people who want to shape law and policy without practicing law. Programs at Harvard Kennedy School, Georgetown, Princeton SPIA, and others train students in policy analysis, economics, and public administration. Many of the most influential people in government, advocacy, and think tanks hold MPPs, not JDs.</p>
+          <div class="meta">
+            <span class="meta-chip">2 years</span>
+            <span class="meta-chip">Often funded</span>
+            <span class="meta-chip">Strong policy career outcomes</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end;">
+          <a href="https://theartofapplying.com/is-law-school-worth-it/" class="degree-link" style="color:var(--amber);">MPP vs. JD comparison →</a>
+          <a href="https://career.berkeley.edu/get-into-grad-school/law-school/alternatives-to-a-jd/" class="degree-link" style="color:var(--amber);">Berkeley's guide →</a>
+        </div>
+      </div>
+
+      <div class="degree-item fade-in">
+        <div>
+          <h3>MBA (Master of Business Administration)</h3>
+          <p class="desc">If your pre-law motivation is business, finance, entrepreneurship, or management — the MBA is often a faster, cheaper, and more direct path. Many corporate roles that pre-law students target (general counsel's office, compliance, contract management) are accessible with an MBA. The two-year full-time format is comparable to law school's commitment, but with a wider range of outcomes.</p>
+          <div class="meta">
+            <span class="meta-chip">2 years</span>
+            <span class="meta-chip">Comparable earning potential</span>
+            <span class="meta-chip">Strong alumni networks</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end;">
+          <a href="https://theartofapplying.com/is-law-school-worth-it/" class="degree-link" style="color:var(--amber);">MBA vs. JD analysis →</a>
+        </div>
+      </div>
+
+      <div class="degree-item fade-in">
+        <div>
+          <h3>Paralegal Certificate (ABA-Approved)</h3>
+          <p class="desc">An ABA-approved paralegal certificate (typically 1–2 years at a community college or university) is the fastest way into legal work. Paralegals perform substantive legal research, draft documents, and manage cases. Median salary is around $60,000, and experienced paralegals at large firms can earn significantly more. A growing number of paralegals work as independent contractors.</p>
+          <div class="meta">
+            <span class="meta-chip">1–2 years</span>
+            <span class="meta-chip">$15K–$30K typical cost</span>
+            <span class="meta-chip">Immediate job market entry</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end;">
+          <a href="https://www.paralegaledu.org/paralegal-career-guide/" class="degree-link" style="color:var(--amber);">Full paralegal guide →</a>
+          <a href="https://research.com/advice/legal-studies-vs-paralegal-studies-degree" class="degree-link" style="color:var(--amber);">Legal Studies vs. Paralegal →</a>
+        </div>
+      </div>
+
+      <div class="degree-item fade-in">
+        <div>
+          <h3>Compliance &amp; Regulatory Affairs Certifications</h3>
+          <p class="desc">Certifications like the Certified Compliance &amp; Ethics Professional (CCEP), CIPP (privacy), or industry-specific credentials (healthcare, finance) can unlock compliance roles that rival attorney salaries in some sectors — without the JD. Many are stackable and can be completed while working full-time.</p>
+          <div class="meta">
+            <span class="meta-chip">Months, not years</span>
+            <span class="meta-chip">$1K–$10K</span>
+            <span class="meta-chip">Growing field</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end;">
+          <a href="https://www.utsa.edu/pace/news/careers-in-the-legal-field-without-law-degree.html" class="degree-link" style="color:var(--amber);">UTSA overview →</a>
+        </div>
+      </div>
+
+      <div class="degree-item fade-in">
+        <div>
+          <h3>Structured Fellowships (Coro, PPIA, Partners for Justice)</h3>
+          <p class="desc">Formal fellowship programs offer intensive, paid experiences in public affairs and policy work — often as a direct alternative to law school for those drawn to civic impact. The Coro Fellowship in Public Affairs (nine months, cross-sector), the PPIA Junior Summer Institute, and Partners for Justice (two-year public defender client advocate role) are three standouts.</p>
+          <div class="meta">
+            <span class="meta-chip">Paid or stipended</span>
+            <span class="meta-chip">Highly competitive</span>
+            <span class="meta-chip">Career-defining experience</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end;">
+          <a href="https://career.berkeley.edu/get-into-grad-school/law-school/alternatives-to-a-jd/" class="degree-link" style="color:var(--amber);">Berkeley's fellowship list →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- INTEREST ROUTER -->
+<section class="interest-section">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-eyebrow">Find your path</div>
+      <h2>What draws you to law school in the first place?</h2>
+      <p>Most people who consider law school aren't drawn to "being a lawyer" — they're drawn to a value or interest that law seems to serve. Let's be specific about that.</p>
+    </div>
+
+    <div class="interests-grid">
+      <div class="interest-card ic-orange fade-in">
+        <div class="if">If you care about...</div>
+        <h3>Justice & Advocacy</h3>
+        <p>Consider: <strong>Partners for Justice</strong> (public defender client advocate), <strong>ACLU paralegal</strong>, nonprofit policy work, or a Master of Legal Studies with a focus on civil rights. You don't need a bar license to fight for justice.</p>
+        <div class="arrow">→</div>
+      </div>
+      <div class="interest-card ic-teal fade-in">
+        <div class="if">If you care about...</div>
+        <h3>Business & Deals</h3>
+        <p>Consider: an <strong>MBA</strong>, a <strong>Master of Legal Studies in business law</strong>, or a direct path to contract management. Many in-house GC roles value business acumen over legal credentials for non-attorney staff.</p>
+        <div class="arrow">→</div>
+      </div>
+      <div class="interest-card ic-purple fade-in">
+        <div class="if">If you care about...</div>
+        <h3>Tech & the Future</h3>
+        <p>Consider: <strong>legal tech / LegalOps</strong>, tech policy research at EFF or a think tank, or a CS + policy dual degree. Working in tech policy does not require a law degree — <a href="https://cecexie.substack.com/p/can-you-work-in-tech-policy-without" style="color:var(--purple);">read this piece</a> from someone who explored it.</p>
+        <div class="arrow">→</div>
+      </div>
+      <div class="interest-card ic-amber fade-in">
+        <div class="if">If you care about...</div>
+        <h3>Government & Policy</h3>
+        <p>Consider: an <strong>MPP or MPA</strong>, the <strong>Coro Fellowship</strong>, legislative staff work, or the <strong>PPIA summer institute</strong>. Policy shops, think tanks, and agencies are full of non-lawyers who shape law every day.</p>
+        <div class="arrow">→</div>
+      </div>
+      <div class="interest-card ic-green fade-in">
+        <div class="if">If you care about...</div>
+        <h3>Helping People Directly</h3>
+        <p>Consider: social work (MSW), counseling, community organizing, or a role as a <strong>patient advocate</strong> or <strong>victim advocate</strong>. Many of these roles have more direct human impact than most lawyer jobs.</p>
+        <div class="arrow">→</div>
+      </div>
+      <div class="interest-card ic-orange fade-in">
+        <div class="if">If you care about...</div>
+        <h3>Prestige & Income</h3>
+        <p>This is worth being honest about. An MBA from a top program, a career in finance, or senior roles in tech or consulting can match or exceed attorney income without the debt — and often faster. Do the math for your specific situation.</p>
+        <div class="arrow">→</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REAL STORIES -->
+<section id="stories" class="section green">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-eyebrow">First-person accounts</div>
+      <h2>Real stories from people who chose a different path</h2>
+      <p>These aren't cautionary tales — they're lives well-redirected. Each person found their way to work that fit them better than a law degree would have.</p>
+    </div>
+
+    <div class="stories-grid">
+
+      <div class="story-card fade-in">
+        <blockquote>"The thing that had drawn me to law — my desire to help others — also made it exhausting. Reading about cases involving harm left me wracked with anxiety and unable to function normally outside of work."</blockquote>
+        <div class="attribution">Kelly Doran — Left after 1 semester</div>
+        <a href="https://www.careercontessa.com/advice/law-school-right-fit/" class="source-link">
+          <span>📖</span> Read the full story at Career Contessa
+        </a>
+      </div>
+
+      <div class="story-card fade-in">
+        <blockquote>"I found studying law to be extremely boring. My depression and anxiety worsened in the competitive environment, making me question everything I had worked toward."</blockquote>
+        <div class="attribution">Anonymous 1L — McGill University</div>
+        <a href="https://precedentjd.com/advice/why-i-dropped-out-of-law-school/" class="source-link">
+          <span>📖</span> Read the full story at PrecedentJD
+        </a>
+      </div>
+
+      <div class="story-card fade-in">
+        <blockquote>"Leaving law school was the most empowering decision I ever made. I had built my identity around this path for so long that I forgot to ask whether it was the right one."</blockquote>
+        <div class="attribution">Sinkaus — LinkedIn essay</div>
+        <a href="https://www.linkedin.com/pulse/proud-dropout-how-leaving-law-school-empowered-me-sinkaus" class="source-link">
+          <span>📖</span> Read on LinkedIn
+        </a>
+      </div>
+
+      <div class="story-card fade-in">
+        <blockquote>"Do you know someone who dropped out of law school? I do. He went into consulting, makes more than most of his attorney friends, and has better hours. He doesn't talk about it much."</blockquote>
+        <div class="attribution">Quora thread — community responses</div>
+        <a href="https://www.quora.com/Do-you-know-someone-who-dropped-out-of-law-school-If-so-what-job-s-has-this-person-worked-since-then" class="source-link">
+          <span>📖</span> Read the Quora thread
+        </a>
+      </div>
+
+      <div class="story-card fade-in">
+        <blockquote>"I was absolutely terrified. But I realized that I was using law school as a status symbol — a signifier that I had 'made it' — rather than a genuine calling. That was an uncomfortable truth."</blockquote>
+        <div class="attribution">Anonymous — from a pre-law community forum</div>
+        <a href="https://hecec.human.cornell.edu/?p=2761" class="source-link">
+          <span>📖</span> Cornell Human Ecology piece
+        </a>
+      </div>
+
+      <div class="story-card fade-in">
+        <blockquote>"I sat down to take the LSAT, got twenty minutes in, and walked out. That was the day I decided to start the company instead. I've never regretted it."</blockquote>
+        <div class="attribution">Reddit's Co-Founder — on skipping law school entirely</div>
+        <a href="https://fortune.com/videos/watch/reddit%E2%80%99s-founder-walked-out-of-the-lsat-after-20-minutes-and-decided-to-be-an-entrepreneur-/1ade46d1-5a51-43bc-8dca-59c56d2173b8" class="source-link">
+          <span>🎬</span> Watch the story at Fortune
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REDDIT & COMMUNITY RESOURCES -->
+<section id="resources" class="section orange">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-eyebrow">Where the conversations happen</div>
+      <h2>Reddit communities and online forums</h2>
+      <p>Some of the most honest, detailed, and helpful discussions about whether to go to law school happen on Reddit — from people who've been through it.</p>
+    </div>
+
+    <div class="reddit-grid">
+      <a href="https://www.reddit.com/r/prelaw/" class="reddit-card fade-in" target="_blank" rel="noopener noreferrer">
+        <div class="sub">r/prelaw</div>
+        <div class="desc">The main community for students considering law school. Candid conversations about whether it's worth it, LSAT prep, and alternative paths.</div>
+      </a>
+      <a href="https://www.reddit.com/r/LawSchool/" class="reddit-card fade-in" target="_blank" rel="noopener noreferrer">
+        <div class="sub">r/LawSchool</div>
+        <div class="desc">Current law students talking frankly about the experience — including many who express regret, burnout, and reconsideration.</div>
+      </a>
+      <a href="https://www.reddit.com/r/paralegal/" class="reddit-card fade-in" target="_blank" rel="noopener noreferrer">
+        <div class="sub">r/paralegal</div>
+        <div class="desc">Paralegals sharing career advice, salary info, and what the day-to-day reality of legal work looks like without the JD.</div>
+      </a>
+      <a href="https://www.reddit.com/r/legaladvice/" class="reddit-card fade-in" target="_blank" rel="noopener noreferrer">
+        <div class="sub">r/legaladvice</div>
+        <div class="desc">A window into the kinds of legal questions people actually have — useful for understanding what legal work really involves.</div>
+      </a>
+      <a href="https://www.reddit.com/r/povertylaw/" class="reddit-card fade-in" target="_blank" rel="noopener noreferrer">
+        <div class="sub">r/povertylaw</div>
+        <div class="desc">Community around access to justice and legal aid — relevant if your interest in law is driven by advocacy for underserved communities.</div>
+      </a>
+      <a href="https://www.reddit.com/r/compliance/" class="reddit-card fade-in" target="_blank" rel="noopener noreferrer">
+        <div class="sub">r/compliance</div>
+        <div class="desc">Compliance professionals discussing career paths, certifications, salaries, and day-to-day realities of one of law's fastest-growing adjacent fields.</div>
+      </a>
+      <a href="https://www.reddit.com/r/careeradvice/" class="reddit-card fade-in" target="_blank" rel="noopener noreferrer">
+        <div class="sub">r/careeradvice</div>
+        <div class="desc">General career advice community with many threads specifically about choosing between law school and alternatives.</div>
+      </a>
+      <a href="https://www.reddit.com/r/MBA/" class="reddit-card fade-in" target="_blank" rel="noopener noreferrer">
+        <div class="sub">r/MBA</div>
+        <div class="desc">MBA students and alumni — useful for comparing the MBA path to the JD path, especially for business-oriented pre-law students.</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- LINK RESOURCES -->
+<section class="section teal">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-eyebrow">Do your research</div>
+      <h2>Essential reading before you decide</h2>
+      <p>Articles, guides, databases, and tools that will give you a clearer picture — from every angle.</p>
+    </div>
+
+    <div class="resources-cols fade-in">
+
+      <div class="resource-group">
+        <h3 style="color:var(--teal);">Should You Go to Law School?</h3>
+        <ul class="resource-links">
+          <li><a href="https://www.abajournal.com/web/article/is-law-school-worth-it-at-33-low-tier-schools-median-income-after-student-debt-is-55k-or-below" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>ABA Journal: Is Law School Worth It? (Income data by school)</a></li>
+          <li><a href="https://theartofapplying.com/is-law-school-worth-it/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>The Art of Applying: Honest Law School ROI Analysis</a></li>
+          <li><a href="https://www.edvisors.com/plan-for-college/benefits-of-college/law-school/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>Edvisors: Is Law School Worth It?</a></li>
+          <li><a href="https://odysseytestprep.com/average-law-school-debt/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>Average Law School Debt Statistics</a></li>
+          <li><a href="https://www.juriseducation.com/blog/is-law-school-worth-it" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>Juris Education: What You Need to Know</a></li>
+        </ul>
+      </div>
+
+      <div class="resource-group">
+        <h3 style="color:var(--orange);">Careers Without a JD</h3>
+        <ul class="resource-links">
+          <li><a href="https://career.ucla.edu/blog/2024/02/01/13-careers-in-law-without-being-a-lawyer/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-orange"></span>UCLA: 13 Careers in Law (Without Being a Lawyer)</a></li>
+          <li><a href="https://www.utsa.edu/pace/news/careers-in-the-legal-field-without-law-degree.html" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-orange"></span>UTSA: Careers in the Legal Field Without a Law Degree</a></li>
+          <li><a href="https://online.usc.edu/news/top-legal-jobs-without-jd-non-lawyer-careers/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-orange"></span>USC Online: Top Legal Jobs for Non-Lawyers</a></li>
+          <li><a href="https://career.berkeley.edu/get-into-grad-school/law-school/alternatives-to-a-jd/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-orange"></span>UC Berkeley: Alternatives to the JD</a></li>
+          <li><a href="https://www.lawcrossing.com/legal-operations-career-path.php" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-orange"></span>LawCrossing: Legal Operations Career Path Guide</a></li>
+        </ul>
+      </div>
+
+      <div class="resource-group">
+        <h3 style="color:var(--purple);">Alternative Degrees</h3>
+        <ul class="resource-links">
+          <li><a href="https://llm-guide.com/articles/juris-masters-msls-and-beyond-master-of-laws-programs-for-non-law-graduates" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-purple"></span>LLM Guide: Juris Masters, MSLs and Beyond</a></li>
+          <li><a href="https://legalstudiesmastersonline.northeastern.edu/articles/what-is-the-difference-between-legal-studies-vs-law-degree/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-purple"></span>Northeastern: MLS vs. JD — What's the Difference?</a></li>
+          <li><a href="https://mls.law.wfu.edu/articles/mls-vs-jd-which-is-right-for-you/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-purple"></span>Wake Forest: MLS vs. JD — Which Is Right for You?</a></li>
+          <li><a href="https://www.americanbar.org/groups/legal_education/accreditation/approved-law-schools/non-jd/programs-by-school/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-purple"></span>ABA: Non-JD Programs by School (Official List)</a></li>
+          <li><a href="https://research.com/advice/legal-studies-vs-paralegal-studies-degree" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-purple"></span>Research.com: Legal Studies vs. Paralegal Studies</a></li>
+        </ul>
+      </div>
+
+      <div class="resource-group">
+        <h3 style="color:var(--amber);">Personal Stories & Media</h3>
+        <ul class="resource-links">
+          <li><a href="https://www.careercontessa.com/advice/law-school-right-fit/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-amber"></span>Career Contessa: I Dropped Out — Here's What I Learned</a></li>
+          <li><a href="https://www.linkedin.com/pulse/proud-dropout-how-leaving-law-school-empowered-me-sinkaus" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-amber"></span>LinkedIn: Proud to Be a "Dropout"</a></li>
+          <li><a href="https://testmaxprep.com/blog/bar-exam/famous-law-school-dropouts" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-amber"></span>TestMax: Famous Law School Dropouts</a></li>
+          <li><a href="https://www.findlaw.com/legalblogs/greedy-associates/the-10-most-prominent-law-school-dropouts-in-history/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-amber"></span>FindLaw: The 10 Most Prominent Dropouts in History</a></li>
+          <li><a href="https://www.quora.com/Do-you-know-someone-who-dropped-out-of-law-school-If-so-what-job-s-has-this-person-worked-since-then" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-amber"></span>Quora: Stories from People Who Know Dropouts</a></li>
+        </ul>
+      </div>
+
+      <div class="resource-group">
+        <h3 style="color:var(--green);">Paralegal Careers</h3>
+        <ul class="resource-links">
+          <li><a href="https://www.paralegaledu.org/paralegal-career-guide/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-green"></span>ParalegalEdu: The Complete 2026 Career Guide</a></li>
+          <li><a href="https://www.paralegaledu.org/salaries/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-green"></span>ParalegalEdu: Salary Guide by State</a></li>
+          <li><a href="https://www.utsa.edu/pace/news/is-it-worth-it-to-become-a-paralegal-in-2024.html" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-green"></span>UTSA: Is It Worth It to Become a Paralegal?</a></li>
+          <li><a href="https://brightflag.com/resources/from-paralegal-to-legal-operations-career-switch/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-green"></span>Brightflag: From Paralegal to Legal Ops</a></li>
+          <li><a href="https://cpe.ucdavis.edu/news/career-outlook-paralegal-studies" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-green"></span>UC Davis: Career Outlook for Paralegal Professionals</a></li>
+        </ul>
+      </div>
+
+      <div class="resource-group">
+        <h3 style="color:var(--teal);">Law School Career Centers (Yes, Really)</h3>
+        <ul class="resource-links">
+          <li><a href="https://law.berkeley.edu/careers/other-resources/external-job-search-resources/alternative-careers/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>Berkeley Law: Alternative Careers Resources</a></li>
+          <li><a href="https://www.colorado.edu/law/careers/career-paths/alternative-careers" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>Colorado Law: Alternative Career Paths</a></li>
+          <li><a href="https://www.bu.edu/law/careers-professional-development/legal-career-paths/employment-sectors-alternative-emerging-careers" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>BU Law: Alternative & Emerging Careers</a></li>
+          <li><a href="https://law.unl.edu/career/alternative-legal-careers/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>Nebraska Law: JD Advantage Legal Careers</a></li>
+          <li><a href="https://taylorlawoffices.com/6-alternative-legal-careers-for-law-school-graduates/" target="_blank" rel="noopener noreferrer"><span class="rl-dot dot-teal"></span>Taylor Law: 6 Alternative Careers for Law Grads</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">Law School<span>Alternatives</span>.com</a>
+        <p>An independent resource for anyone weighing law school against other paths. No ads, no affiliates, no law school admissions consultants. Just honest information.</p>
+      </div>
+      <div class="footer-links">
+        <h4>On This Page</h4>
+        <ul>
+          <li><a href="#cost">The Real Cost</a></li>
+          <li><a href="#dropouts">Famous Dropouts</a></li>
+          <li><a href="#careers">Careers Without a JD</a></li>
+          <li><a href="#degrees">Alternative Degrees</a></li>
+          <li><a href="#stories">Real Stories</a></li>
+          <li><a href="#resources">Resources & Links</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="https://www.americanbar.org" target="_blank" rel="noopener noreferrer">American Bar Association</a></li>
+          <li><a href="https://www.reddit.com/r/prelaw/" target="_blank" rel="noopener noreferrer">r/prelaw on Reddit</a></li>
+          <li><a href="https://www.lsac.org" target="_blank" rel="noopener noreferrer">LSAC (Law School Admission Council)</a></li>
+          <li><a href="https://www.bls.gov/ooh/legal/home.htm" target="_blank" rel="noopener noreferrer">BLS: Legal Occupations Outlook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 LawSchoolAlternatives.com — An independent resource. Not affiliated with any law school, bar association, or test prep company.</span>
+      <span>Domain: <strong>lawschoolalternatives.com</strong></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ─── THEME TOGGLE ────────────────────────────────────────────
+const btn = document.getElementById('themeToggle');
+const root = document.documentElement;
+
+function getTheme() {
+  try { return localStorage.getItem('theme'); } catch { return null; }
+}
+
+function setTheme(t) {
+  try { localStorage.setItem('theme', t); } catch {}
+  root.setAttribute('data-theme', t);
+  btn.textContent = t === 'dark' ? '☀️' : '🌙';
+}
+
+(function init() {
+  const stored = getTheme();
+  if (stored) {
+    setTheme(stored);
+  } else {
+    btn.textContent = '🌓';
+  }
+})();
+
+btn.addEventListener('click', () => {
+  const current = root.getAttribute('data-theme');
+  const isDark = current === 'dark' || (!current && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  setTheme(isDark ? 'light' : 'dark');
+});
+
+// ─── SCROLL ANIMATIONS ──────────────────────────────────────
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('visible'), i * 60);
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
