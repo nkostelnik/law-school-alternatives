@@ -807,6 +807,90 @@ nav {
 .dot-amber  { background: var(--amber); }
 .dot-green  { background: var(--green); }
 
+/* ─── BOOKS SECTION ──────────────────────────────────────── */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.book-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.book-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-color: var(--purple);
+}
+
+.book-spine {
+  width: 48px;
+  height: 64px;
+  border-radius: 4px 8px 8px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  box-shadow: -3px 3px 8px rgba(0,0,0,0.15);
+}
+
+.book-card .book-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.book-card .book-author {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--text-3);
+  letter-spacing: 0.04em;
+}
+
+.book-card .book-desc {
+  font-size: 0.87rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.book-card .amazon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-top: 4px;
+}
+
+.book-card:hover .amazon-btn { text-decoration: underline; }
+
+.affiliate-note {
+  margin-top: 24px;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--text-3);
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
 /* ─── REDDIT SECTION ──────────────────────────────────────── */
 .reddit-grid {
   display: grid;
@@ -1035,6 +1119,7 @@ a:focus-visible, button:focus-visible {
       <li><a href="#careers">Careers</a></li>
       <li><a href="#degrees">Degrees</a></li>
       <li><a href="#stories">Stories</a></li>
+      <li><a href="#books">Books</a></li>
       <li><a href="#resources">Resources</a></li>
     </ul>
   </div>
@@ -1581,6 +1666,107 @@ a:focus-visible, button:focus-visible {
       </div>
 
     </div>
+  </div>
+</section>
+
+<!-- BOOKS -->
+<section id="books" class="section purple">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-eyebrow">Required reading</div>
+      <h2>Books worth reading before you decide</h2>
+      <p>Whether you're leaning toward law school, leaning away, or just trying to think clearly about it — these books will sharpen the decision. Some are cautionary, some are practical, and a few will make you laugh despite yourself.</p>
+    </div>
+
+    <div class="books-grid">
+
+      <a href="https://www.amazon.com/dp/1480163686/?tag=nk1900-20" target="_blank" rel="noopener noreferrer" class="book-card fade-in">
+        <div style="display:flex;align-items:center;gap:16px;">
+          <div class="book-spine" style="background:var(--orange-bg);color:var(--orange);">📕</div>
+          <div>
+            <div class="book-title">Don't Go to Law School (Unless)</div>
+            <div class="book-author">Paul Campos</div>
+          </div>
+        </div>
+        <p class="book-desc">A law professor's bracingly honest inside guide to the risks, costs, and realities of legal education. Campos pulls no punches about the job market, the debt, and who law school actually serves well — and who it doesn't.</p>
+        <div class="amazon-btn">View on Amazon →</div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/B0GXB6ZQJW/?tag=nk1900-20" target="_blank" rel="noopener noreferrer" class="book-card fade-in">
+        <div style="display:flex;align-items:center;gap:16px;">
+          <div class="book-spine" style="background:var(--teal-bg);color:var(--teal);">📗</div>
+          <div>
+            <div class="book-title">Should You Go to Law School?</div>
+            <div class="book-author">Mark Grannis</div>
+          </div>
+        </div>
+        <p class="book-desc">A thoughtful, structured framework for making the decision. Grannis walks through the questions you should actually be asking — about your motivations, your alternatives, and what you're really signing up for.</p>
+        <div class="amazon-btn">View on Amazon →</div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/0312605110/?tag=nk1900-20" target="_blank" rel="noopener noreferrer" class="book-card fade-in">
+        <div style="display:flex;align-items:center;gap:16px;">
+          <div class="book-spine" style="background:var(--purple-bg);color:var(--purple);">📘</div>
+          <div>
+            <div class="book-title">Law School Confidential</div>
+            <div class="book-author">Robert H. Miller</div>
+          </div>
+        </div>
+        <p class="book-desc">The classic insider guide to the law school experience, written by students for students. Candid, practical, and disarmingly honest about what the first year is actually like — useful whether you go or not.</p>
+        <div class="amazon-btn">View on Amazon →</div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/0804799768/?tag=nk1900-20" target="_blank" rel="noopener noreferrer" class="book-card fade-in">
+        <div style="display:flex;align-items:center;gap:16px;">
+          <div class="book-spine" style="background:var(--amber-bg);color:var(--amber);">📙</div>
+          <div>
+            <div class="book-title">How to Be Sort of Happy in Law School</div>
+            <div class="book-author">Kathryne M. Young</div>
+          </div>
+        </div>
+        <p class="book-desc">A sociologist who studied law students shares what actually predicts wellbeing in legal education — and what doesn't. Essential reading if you're worried about the mental health toll, or wondering whether you'd survive it.</p>
+        <div class="amazon-btn">View on Amazon →</div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/0195392329/?tag=nk1900-20" target="_blank" rel="noopener noreferrer" class="book-card fade-in">
+        <div style="display:flex;align-items:center;gap:16px;">
+          <div class="book-spine" style="background:var(--green-bg);color:var(--green);">📗</div>
+          <div>
+            <div class="book-title">The Happy Lawyer</div>
+            <div class="book-author">Nancy Levit &amp; Douglas O. Linder</div>
+          </div>
+        </div>
+        <p class="book-desc">Explores why so many lawyers are unhappy, what the research says about satisfaction in legal careers, and what kinds of legal work tend to be more fulfilling. A valuable reality check for anyone idealizing the profession.</p>
+        <div class="amazon-btn">View on Amazon →</div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/1684679389/?tag=nk1900-20" target="_blank" rel="noopener noreferrer" class="book-card fade-in">
+        <div style="display:flex;align-items:center;gap:16px;">
+          <div class="book-spine" style="background:var(--orange-bg);color:var(--orange);">📕</div>
+          <div>
+            <div class="book-title">1L of a Ride</div>
+            <div class="book-author">Andrew J. McClurg</div>
+          </div>
+        </div>
+        <p class="book-desc">A veteran law professor's comprehensive roadmap to first-year law school. If you're going, this is the practical guide. If you're on the fence, it's an unusually honest preview of exactly what you'd be getting into.</p>
+        <div class="amazon-btn">View on Amazon →</div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/1594607346/?tag=nk1900-20" target="_blank" rel="noopener noreferrer" class="book-card fade-in">
+        <div style="display:flex;align-items:center;gap:16px;">
+          <div class="book-spine" style="background:var(--purple-bg);color:var(--purple);">📘</div>
+          <div>
+            <div class="book-title">Getting to Maybe</div>
+            <div class="book-author">Richard Fischl &amp; Jeremy Paul</div>
+          </div>
+        </div>
+        <p class="book-desc">The definitive guide to law school exams and legal reasoning. Worth reading even if you don't go — it teaches a mode of analysis that's genuinely useful in many fields, from compliance to policy to negotiation.</p>
+        <div class="amazon-btn">View on Amazon →</div>
+      </a>
+
+    </div>
+
+    <p class="affiliate-note fade-in">* Links above are Amazon affiliate links. Purchases support this site at no extra cost to you.</p>
   </div>
 </section>
 
