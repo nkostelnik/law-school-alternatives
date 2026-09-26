@@ -1,0 +1,15 @@
+# Law School Alternatives
+
+> An independent, honest guide for anyone reconsidering law school: real cost and debt data, 13+ careers that don't require a JD, alternative degrees, first-person stories from people who left or skipped law school, and curated resources.
+
+This is a single-page site (no navigation to crawl beyond the homepage). It is not legal advice and not affiliated with any law school, bar association, or admissions body. Some book recommendations use an Amazon Associates affiliate link disclosed on the page.
+
+## Contents
+- Careers that don't require a JD: compliance officer, paralegal, legal operations manager, policy analyst, mediator, contract manager, legal tech professional, and more, each with typical salary ranges.
+- Alternative degrees: Master of Legal Studies (MLS), Master of Public Policy (MPP), Master of Public Administration (MPA), MBA, and paralegal certificate programs, what each costs and who hires graduates.
+- Real cost and debt data on attending law school.
+- First-person stories from people who left law school, never enrolled, or pivoted mid-career, including notable law school dropouts.
+- An FAQ answering common questions in plain language (also marked up as schema.org FAQPage structured data on the page itself).
+
+## Primary page
+- [Law School Alternatives](https://lawschoolalternatives.com/): the full guide, all content on one page.
